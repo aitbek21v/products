@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navbar-links button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navbar-links button.active {
+    border-bottom: 2px solid white;
+  }
+  
+  .add-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-button:hover {
+    background-color: #e64a19;
+  }
+  
+  .btns {
+    display: flex;
+    gap: 20px;
+  }
