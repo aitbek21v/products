@@ -39,7 +39,7 @@ const PageC = () => {
             </tr>
           </thead>
           <tbody>
-            {filteredProduct.map((product) => (
+            {filteredProduct?.map((product) => (
               <tr key={product.id}>
                 <td>{product.article}</td>
                 <td>{product.barcode}</td>
